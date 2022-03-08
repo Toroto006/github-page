@@ -126,11 +126,11 @@ const CardFooter = ({ star_count, repo_url, pushed_at }) => {
         href={repo_url + "/stargazers"}
         target=" _blank"
         className="text-dark text-decoration-none"
-      >
-        <span className="text-dark card-link mr-4">
-          <i className="fab fa fa-github" /> Stars{" "}
-          <span className="badge badge-dark">{star_count}</span>
-        </span>
+      ><i className="fab fa fa-github" />{" "}
+        {/* TODO only add once I have starts
+        <span className="text-dark card-link mr-4"> Stars{" "}
+          <span className="badge badge-dark">{star_count}</span> 
+        </span>*/}
       </a>
       <small className="text-muted">Updated {updated_at}</small>
     </p>
