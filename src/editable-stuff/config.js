@@ -1,3 +1,5 @@
+// TODO FIX ALL DEPRECATED ISSUES!
+
 // Navigation Bar SECTION
 const navBar = {
   show: true,
@@ -5,30 +7,31 @@ const navBar = {
 
 // Main Body SECTION
 const mainBody = {
-  gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
+  // TODO change particle effect to network effect
+  gradientColors: "#000022, #001242, #0094c6, #005e7c, #040f16",
   firstName: "Tobias",
   middleName: "",
-  lastName: "Oberdoerfer",
+  lastName: "Oberdörfer",
   message: " Having a challenge to follow is the most fun! ",
   icons: [
     {
-      image: "fa-linkedin",
+      image: "fa fa-linkedin",
       url: "https://linkedin.com/in/tobias-oberdoerfer",
     },
     {
-      image: "fa-github",
+      image: "fa fa-github",
       url: "https://github.com/Toroto006?tab=repositories",
     },
     {
-      image: "fa-comments",
+      image: "fa fa-comments",
       url: "https://matrix.to/#/@toroto008:matrx.me",
     },
     {
-      image: "fa-twitter",
+      image: "fa fa-twitter",
       url: "https://twitter.com/toroto008",
     },
     {
-      image: "fa-envelope",
+      image: "fa fa-envelope",
       url: "mailto:tobias.ober@hotmail.com",
     },  
   ],
@@ -68,14 +71,16 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
+  //TODO prioritize specific repos!
+  // TODO publicize "AML-ETHZ-HS21",
+  specificRepos: ["InfoSecLab-ETHZ-HS21", "routingSimEngine-ETHZ-FS20"],
   gitHubUsername: "Toroto006", //i.e."johnDoe12Gh"
-  reposLength: 4,
-  specificRepos: ["InfoSecLab-ETHZ-HS21", "AML-ETHZ-HS21", "routingSimEngine-ETHZ-FS20"],
+  reposLength: 2,
 };
 
 // Leadership SECTION
-// const leadership = {
-//   show: false,
+const leadership = {
+   show: false,
 //   heading: "Leadership",
 //   message:
 //     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
@@ -95,7 +100,7 @@ const repos = {
 //     width:"615",
 //     height:"450"
 //   }
-// };
+};
 
 // SKILLS SECTION
 const skills = {
@@ -113,13 +118,13 @@ const skills = {
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 90 },
-    { name: "Problem Solving", value: 85 },
-    { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 80 },
-    { name: "Adaptability", value: 75 },
+    { name: "Collaboration", value: 85 },
+    { name: "Problem Solving", value: 80 },
+    { name: "Positivity", value: 75 },
+    { name: "Adaptability", value: 70 },
     //{ name: "Empathy", value: 70 },
-    { name: "Organization", value: 70 },
-    { name: "Creativity", value: 75 },
+    { name: "Organization", value: 65 },
+    //{ name: "Creativity", value: 75 },
   ],
 };
 
@@ -129,12 +134,13 @@ const getInTouch = {
   heading: "Get In Touch",
   message:
     "I'm currently looking for an internship or part-time in the field of Cyber Security! If you know of any positions available, have any questions, or just want to say hi, please feel free to email me at",
+  // TODO remove the comma here
   email: "tobias.ober@hotmail.com",
 };
 
 //TODO CTF
-// const experiences = {
-//   show: false,
+const experiences = {
+   show: false,
 //   heading: "Experiences",
 //   data: [
 //     {
@@ -148,11 +154,11 @@ const getInTouch = {
 //       date: 'May 2017 – May 2018',
 //     },
 //   ]
-// }
+}
 
 // Blog SECTION
 // const blog = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, skills, repos, getInTouch };
+export { navBar, mainBody, about, skills, repos, getInTouch, experiences, leadership };

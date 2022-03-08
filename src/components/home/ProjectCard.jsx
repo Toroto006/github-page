@@ -44,10 +44,10 @@ const CardButtons = ({ svn_url }) => {
         href={`${svn_url}/archive/master.zip`}
         className="btn btn-outline-secondary mr-3"
       >
-        <i className="fab fa-github" /> Clone Project
+        <i className="fab fa fa-github" /> Clone Project
       </a>
       <a href={svn_url} target=" _blank" className="btn btn-outline-secondary">
-        <i className="fab fa-github" /> Repo
+        <i className="fab fa fa-github" /> Repo
       </a>
     </>
   );
@@ -128,7 +128,7 @@ const CardFooter = ({ star_count, repo_url, pushed_at }) => {
         className="text-dark text-decoration-none"
       >
         <span className="text-dark card-link mr-4">
-          <i className="fab fa-github" /> Stars{" "}
+          <i className="fab fa fa-github" /> Stars{" "}
           <span className="badge badge-dark">{star_count}</span>
         </span>
       </a>
