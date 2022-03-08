@@ -6,31 +6,31 @@ const navBar = {
 // Main Body SECTION
 const mainBody = {
   gradientColors: "#4484ce, #1ad7c0, #ff9b11, #9b59b6, #ff7f7f, #ecf0f1",
-  firstName: "Hashir",
+  firstName: "Tobias",
   middleName: "",
-  lastName: "Shoaib",
-  message: " Passionate about changing the world with technology. ",
+  lastName: "Oberdoerfer",
+  message: " Having a challenge to follow is the most fun! ",
   icons: [
     {
-      image: "fa-github",
-      url: "https://github.com/hashirshoaeb",
-    },
-    {
-      image: "fa-facebook",
-      url: "https://www.facebook.com/hashirshoaeb",
-    },
-    {
-      image: "fa-instagram",
-      url: "https://www.instagram.com/hashirshoaeb/",
-    },
-    {
       image: "fa-linkedin",
-      url: "https://www.linkedin.com/in/hashirshoaeb/",
+      url: "https://linkedin.com/in/tobias-oberdoerfer",
+    },
+    {
+      image: "fa-github",
+      url: "https://github.com/Toroto006?tab=repositories",
+    },
+    {
+      image: "fa-comments",
+      url: "https://matrix.to/#/@toroto008:matrx.me",
     },
     {
       image: "fa-twitter",
-      url: "https://www.twitter.com/hashirshoaeb/",
+      url: "https://twitter.com/toroto008",
     },
+    {
+      image: "fa-envelope",
+      url: "mailto:tobias.ober@hotmail.com",
+    },  
   ],
 };
 
@@ -51,11 +51,13 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  imageLink: require("../editable-stuff/hashirshoaeb.png"),
+  // TODO fix this picture!
+  imageLink: "https://media-exp1.licdn.com/dms/image/C4D03AQGVaUMQ2AXq2A/profile-displayphoto-shrink_800_800/0/1641563399543?e=1652313600&v=beta&t=NzTd_rimEbBfPr3XS9rjs_g7z43NhWk4k50IBd177Cg",
   imageSize: 375,
   message:
-    "My name is Hashir Shoaib. I’m a graduate of 2020 from National University of Sciences and Technology at Islamabad with a degree in Computer Engineering. I'm most passionate about giving back to the community, and my goal is to pursue this passion within the field of software engineering. In my free time I like working on open source projects.",
-  resume: "https://docs.google.com/document/d/13_PWdhThMr6roxb-UFiJj4YAFOj8e_bv3Vx9UHQdyBQ/edit?usp=sharing",
+    "My name is Tobias Oberdoerfer and I am currently doing my masters degree with Major in Cyber Security at ETH Zurich. I am passionate about anything that has to do with computer systems, from how kernel paging works over board management controllers to overall cyber security. In my free time I am currently most often occupied with playing CTFs as part of flagbot or organziers if I am not out in nature.",
+  // TODO add more dynamic link!
+  resume: require("../editable-stuff/resume.pdf"),
 };
 
 // PROJECTS SECTION
@@ -66,34 +68,34 @@ const about = {
 const repos = {
   show: true,
   heading: "Recent Projects",
-  gitHubUsername: "hashirshoaeb", //i.e."johnDoe12Gh"
+  gitHubUsername: "Toroto006", //i.e."johnDoe12Gh"
   reposLength: 4,
-  specificRepos: [],
+  specificRepos: ["InfoSecLab-ETHZ-HS21", "AML-ETHZ-HS21", "routingSimEngine-ETHZ-FS20"],
 };
 
 // Leadership SECTION
-const leadership = {
-  show: false,
-  heading: "Leadership",
-  message:
-    "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
-  images: [
-    { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
-      label: "First slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
-    },
-    { 
-      img: require("../editable-stuff/hashirshoaeb.png"), 
-      label: "Second slide label", 
-      paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
-    },
-  ],
-  imageSize: {
-    width:"615",
-    height:"450"
-  }
-};
+// const leadership = {
+//   show: false,
+//   heading: "Leadership",
+//   message:
+//     "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Vitae auctor eu augue ut lectus arcu bibendum at varius. Libero justo laoreet sit amet cursus sit amet. Imperdiet dui accumsan sit amet nulla facilisi morbi. At auctor urna nunc id. Iaculis urna id volutpat lacus laoreet non curabitur gravida. Et magnis dis parturient montes nascetur ridiculus mus mauris. In nisl nisi scelerisque eu ultrices vitae auctor. Mattis nunc sed blandit libero volutpat sed cras ornare. Pulvinar neque laoreet suspendisse interdum consectetur libero.",
+//   images: [
+//     { 
+//       img: require("../editable-stuff/hashirshoaeb.png"), 
+//       label: "First slide label", 
+//       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+//     },
+//     { 
+//       img: require("../editable-stuff/hashirshoaeb.png"), 
+//       label: "Second slide label", 
+//       paragraph: "Nulla vitae elit libero, a pharetra augue mollis interdum." 
+//     },
+//   ],
+//   imageSize: {
+//     width:"615",
+//     height:"450"
+//   }
+// };
 
 // SKILLS SECTION
 const skills = {
@@ -101,23 +103,23 @@ const skills = {
   heading: "Skills",
   hardSkills: [
     { name: "Python", value: 90 },
-    { name: "SQL", value: 75 },
-    { name: "Data Structures", value: 85 },
-    { name: "C/C++", value: 65 },
-    { name: "JavaScript", value: 90 },
-    { name: "React", value: 65 },
+    { name: "C", value: 80 },
+    { name: "Haskell", value: 70 },
+    { name: "Java", value: 65 },
+    { name: "Data Structures", value: 65 },
     { name: "HTML/CSS", value: 55 },
-    { name: "C#", value: 80 },
+    { name: "React", value: 50 },
+    { name: "SQL", value: 45 },
   ],
   softSkills: [
-    { name: "Goal-Oriented", value: 80 },
+    { name: "Goal-Oriented", value: 90 },
+    { name: "Problem Solving", value: 85 },
     { name: "Collaboration", value: 90 },
-    { name: "Positivity", value: 75 },
-    { name: "Adaptability", value: 85 },
-    { name: "Problem Solving", value: 75 },
-    { name: "Empathy", value: 90 },
+    { name: "Positivity", value: 80 },
+    { name: "Adaptability", value: 75 },
+    //{ name: "Empathy", value: 70 },
     { name: "Organization", value: 70 },
-    { name: "Creativity", value: 90 },
+    { name: "Creativity", value: 75 },
   ],
 };
 
@@ -126,30 +128,31 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for full-time Software Engineering or Machine Learning opportunities! If you know of any positions available, if you have any questions, or if you just want to say hi, please feel free to email me at",
-  email: "hashirshoaeb@gmail.com",
+    "I'm currently looking for an internship or part-time in the field of Cyber Security! If you know of any positions available, have any questions, or just want to say hi, please feel free to email me at",
+  email: "tobias.ober@hotmail.com",
 };
 
-const experiences = {
-  show: false,
-  heading: "Experiences",
-  data: [
-    {
-      role: 'Software Engineer',// Here Add Company Name
-      companylogo: require('../assets/img/dell.png'),
-      date: 'June 2018 – Present',
-    },
-    {
-      role: 'Front-End Developer',
-      companylogo: require('../assets/img/boeing.png'),
-      date: 'May 2017 – May 2018',
-    },
-  ]
-}
+//TODO CTF
+// const experiences = {
+//   show: false,
+//   heading: "Experiences",
+//   data: [
+//     {
+//       role: 'Software Engineer',// Here Add Company Name
+//       companylogo: require('../assets/img/dell.png'),
+//       date: 'June 2018 – Present',
+//     },
+//     {
+//       role: 'Front-End Developer',
+//       companylogo: require('../assets/img/boeing.png'),
+//       date: 'May 2017 – May 2018',
+//     },
+//   ]
+// }
 
 // Blog SECTION
 // const blog = {
 //   show: false,
 // };
 
-export { navBar, mainBody, about, repos, skills, leadership, getInTouch, experiences };
+export { navBar, mainBody, about, skills, repos, getInTouch };
