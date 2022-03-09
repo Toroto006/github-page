@@ -29,10 +29,6 @@ const Project = ({ heading, username, length, specfic }) => {
   const fetchRepos = useCallback(async () => {
     let repoList = [];
     try {
-      // getting all repos
-      const response = await axios.get(allReposAPI);
-      // slicing to the length
-      repoList = [...response.data.slice(0, length)];
       // adding specified repos
       try {
         for (let repoName of specfic) {
@@ -42,9 +38,18 @@ const Project = ({ heading, username, length, specfic }) => {
       } catch (error) {
         console.error(error.message);
       }
-      // setting projectArray
-      // TODO: remove the duplication.
-      setProjectsArray(repoList);
+      // getting all repos (now added to the end)
+      const response = await axios.get(allReposAPI);
+      // combine the specified 
+      repoList = [...repoList, ...response.data];
+      // remove the duplication
+      let deduplicated = [];
+      repoList.map((item) => {
+        var findItem = deduplicated.find((x) => x.full_name === item.full_name);
+        if (!findItem) deduplicated.push(item);
+      });
+      // slicing to the length & setting projectArray
+      setProjectsArray(deduplicated.slice(0, length));
     } catch (error) {
       console.error(error.message);
     }
