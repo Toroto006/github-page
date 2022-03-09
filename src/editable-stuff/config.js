@@ -55,7 +55,7 @@ const about = {
   show: true,
   heading: "About Me",
   // TODO fix this picture!
-  imageLink: "https://media-exp1.licdn.com/dms/image/C4D03AQGVaUMQ2AXq2A/profile-displayphoto-shrink_800_800/0/1641563399543?e=1652313600&v=beta&t=NzTd_rimEbBfPr3XS9rjs_g7z43NhWk4k50IBd177Cg",
+  imageLink: "https://drive.google.com/uc?export=view&id=1XG8MXGfBHuxqM8cbEICOJhHXViJwmymL", //1XG8MXGfBHuxqM8cbEICOJhHXViJwmymL --> professional-2022-03.jpg on drive
   imageSize: 375,
   message:
     "My name is Tobias Oberdoerfer and I am currently doing my masters degree with Major in Cyber Security at ETH Zurich. I am passionate about anything that has to do with computer systems, from how kernel paging works over board management controllers to overall cyber security. In my free time I am currently most often occupied with playing CTFs as part of flagbot or organizers if I am not out in nature.",
@@ -75,7 +75,7 @@ const repos = {
   // TODO publicize "AML-ETHZ-HS21",
   specificRepos: ["InfoSecLab-ETHZ-HS21", "routingSimEngine-ETHZ-FS20"],
   gitHubUsername: "Toroto006", //i.e."johnDoe12Gh"
-  reposLength: 2,
+  reposLength: 0,
 };
 
 // Leadership SECTION
