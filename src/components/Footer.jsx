@@ -10,7 +10,7 @@ const Footer = (props) => {
         {props.children}
         <p>
           <small className="text-muted">
-            This page is built with React and open sourced by <a
+            This page is built with React and and a fork from the Developer's Portfolio by <a
           className="badge badge-dark"
           href="https://github.com/hashirshoaeb"
           aria-label="My GitHub"

@@ -20,20 +20,20 @@ const mainBody = {
     },
     {
       image: "fa fa-github",
-      url: "https://github.com/Toroto006?tab=repositories",
+      url: "https://github.com/Toroto006",
     },
     {
       image: "fa fa-comments",
       url: "https://matrix.to/#/@toroto008:matrx.me",
     },
     {
+      image: "fa fa-envelope",
+      url: "mailto:tobias.ober@hotmail.com",
+    },
+    {
       image: "fa fa-twitter",
       url: "https://twitter.com/toroto008",
     },
-    {
-      image: "fa fa-envelope",
-      url: "mailto:tobias.ober@hotmail.com",
-    },  
   ],
 };
 
@@ -57,7 +57,7 @@ const about = {
   imageLink: require("../editable-stuff/professional-2022-03-resized.jpg"),
   imageSize: 375,
   message:
-    "My name is Tobias Oberdoerfer and I am currently doing my masters degree with Major in Cyber Security at ETH Zurich. I am passionate about anything that has to do with computer systems, from how kernel paging works over board management controllers to overall cyber security. In my free time I am currently most often occupied with playing CTFs as part of flagbot or organizers if I am not out in nature.",
+    "My name is Tobias Oberdörfer and I am currently doing my masters degree with Major in Cyber Security at ETH Zurich. I am passionate about anything that has to do with computer systems, from how the linux kernel works over board management controllers to overall cyber security. In my free time I am currently most often occupied with playing CTFs as part of flagbot or organizers.",
   // TODO add more dynamic link!
   resume: "tobias-oberdoerfer-resume.pdf",
 };
@@ -108,23 +108,24 @@ const skills = {
   hardSkills: [
     { name: "Python", value: 90 },
     { name: "C", value: 80 },
-    { name: "Haskell", value: 70 },
-    { name: "Java", value: 65 },
-    { name: "Data Structures", value: 65 },
-    { name: "HTML/CSS", value: 55 },
+    { name: "Java", value: 70 },
+    { name: "Haskell", value: 65 },
+    { name: "IDA Pro", value: 65 },
+    { name: "Data Structures", value: 60 },
     { name: "React", value: 50 },
     { name: "SQL", value: 45 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 90 },
-    { name: "Collaboration", value: 85 },
+    { name: "Communication", value: 85 },
     { name: "Problem Solving", value: 80 },
-    { name: "Positivity", value: 75 },
+    { name: "Teamwork", value: 75 },
+    { name: "Leadership", value: 75 },
     { name: "Adaptability", value: 70 },
-    //{ name: "Empathy", value: 70 },
-    { name: "Organization", value: 65 },
-    //{ name: "Creativity", value: 75 },
+    { name: "Time management", value: 65 },
+    { name: "Creativity", value: 65 },
   ],
+  // TODO add other skills like IDA and languages
 };
 
 // GET IN TOUCH SECTION
