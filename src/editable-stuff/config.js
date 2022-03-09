@@ -54,13 +54,12 @@ const mainBody = {
 const about = {
   show: true,
   heading: "About Me",
-  // TODO fix this picture!
-  imageLink: "https://drive.google.com/uc?export=view&id=1XG8MXGfBHuxqM8cbEICOJhHXViJwmymL", //1XG8MXGfBHuxqM8cbEICOJhHXViJwmymL --> professional-2022-03.jpg on drive
+  imageLink: require("../editable-stuff/professional-2022-03-resized.jpg"),
   imageSize: 375,
   message:
     "My name is Tobias Oberdoerfer and I am currently doing my masters degree with Major in Cyber Security at ETH Zurich. I am passionate about anything that has to do with computer systems, from how kernel paging works over board management controllers to overall cyber security. In my free time I am currently most often occupied with playing CTFs as part of flagbot or organizers if I am not out in nature.",
   // TODO add more dynamic link!
-  resume: require("../editable-stuff/resume.pdf"),
+  resume: "tobias-oberdoerfer-resume.pdf",
 };
 
 // PROJECTS SECTION
@@ -73,9 +72,9 @@ const repos = {
   heading: "Recent Projects",
   //TODO prioritize specific repos!
   // TODO publicize "AML-ETHZ-HS21",
-  specificRepos: ["InfoSecLab-ETHZ-HS21", "routingSimEngine-ETHZ-FS20"],
+  specificRepos: ["InfoSecLab-ETHZ-HS21", "SysSec-ETHZ-HS21", "routingSimEngine-ETHZ-FS20", "IML-ETHZ-FS21"],
   gitHubUsername: "Toroto006", //i.e."johnDoe12Gh"
-  reposLength: 0,
+  reposLength: 4,
 };
 
 // Leadership SECTION
@@ -133,7 +132,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for an internship or part-time in the field of Cyber Security! If you know of any positions available, have any questions, or just want to say hi, please feel free to email me at",
+    "I'm currently looking for an internship or part-time job in the field of Cyber Security! If you know of any positions available, have any questions, or just want to say hi, please feel free to email me at",
   // TODO remove the comma here
   email: "tobias.ober@hotmail.com",
 };
