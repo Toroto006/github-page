@@ -59,7 +59,7 @@ const about = {
   message:
     "My name is Tobias Oberdörfer and I am currently doing my masters degree with Major in Cyber Security at ETH Zurich. I am passionate about anything that has to do with computer systems, from how the linux kernel works over board management controllers to overall cyber security. In my free time I am currently most often occupied with playing CTFs as part of flagbot or organizers.",
   // TODO add more dynamic link!
-  resume: "tobias-oberdoerfer-resume.pdf",
+  resume: "tobias-oberdoerfer-resume-en.pdf",
 };
 
 // PROJECTS SECTION
@@ -111,9 +111,9 @@ const skills = {
     { name: "Java", value: 70 },
     { name: "Haskell", value: 65 },
     { name: "IDA Pro", value: 65 },
-    { name: "Data Structures", value: 60 },
-    { name: "React", value: 50 },
-    { name: "SQL", value: 45 },
+    { name: "GIT", value: 60 },
+    { name: "Ansible", value: 50 },
+    { name: "React", value: 40 },
   ],
   softSkills: [
     { name: "Goal-Oriented", value: 90 },
