@@ -6,9 +6,9 @@
   <p align="center">
     This is a personal static website hosted with GitHub Pages created using a template by
     <a href="https://hashirshoaeb.github.io/home">Hashir Shoaeb</a>
-    Site URL:
     <br />
-    <a href="https://https://tobias-oberdoerfer.matrx.me/#aboutme">About Me</a>
+    Site URL:
+    <a href="https://tobias-oberdoerfer.matrx.me/#aboutme">About Me</a>
   </p>
 </p>
 
