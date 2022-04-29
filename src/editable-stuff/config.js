@@ -15,23 +15,23 @@ const mainBody = {
   message: " Having a challenge to follow is the most fun! ",
   icons: [
     {
-      image: "fa fa-linkedin",
+      image: "fa fac-lin",
       url: "https://linkedin.com/in/tobias-oberdoerfer",
     },
     {
-      image: "fa fa-github",
+      image: "fa fac-git",
       url: "https://github.com/Toroto006",
     },
     {
-      image: "fa fa-comments",
+      image: "fa fac-com",
       url: "https://matrix.to/#/@toroto008:matrx.me",
     },
     {
-      image: "fa fa-envelope",
+      image: "fa fac-env",
       url: "mailto:tobias.ober@hotmail.com",
     },
     {
-      image: "fa fa-twitter",
+      image: "fa fac-twi",
       url: "https://twitter.com/toroto008",
     },
   ],
