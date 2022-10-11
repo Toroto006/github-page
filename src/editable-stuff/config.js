@@ -133,7 +133,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm currently looking for an internship or part-time job in the field of Cyber Security! If you know of any positions available, have any questions, or just want to say hi, please feel free to email me at",
+    "I'm always keeping an eye out for a new job in the field of Cyber Security! If you know of any positions available, have any questions, or just want to say hi, please feel free to email me at",
   // TODO remove the comma here
   email: "tobias.ober@hotmail.com",
 };
