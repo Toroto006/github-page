@@ -57,7 +57,7 @@ const about = {
   imageLink: require("../editable-stuff/professional-2022-03-resized.jpg"),
   imageSize: 375,
   message:
-    "My name is Tobias Oberdörfer and I am currently doing my masters degree with Major in Cyber Security at ETH Zurich and working part-time at InfoGuard AG as a professional pentester. I am passionate about anything that has to do with computer systems, from how the linux kernel works over board management controllers to overall cyber security. In my free time I am currently most often occupied with playing CTFs as part of flagbot or organizers.",
+    "My name is Tobias Oberdörfer and I am currently doing my masters degree with Major in Cyber Security at ETH Zurich and working part-time at InfoGuard AG as a professional pentester. I am passionate about anything that has to do with computer systems, from how the linux kernel works over board management controllers to overall cyber security. In my free time I sometimes play CTFs as part of flagbot or organizers.",
   // TODO add more dynamic link!
   resume: "tobias-oberdoerfer-resume-en.pdf",
 };
@@ -72,8 +72,15 @@ const repos = {
   heading: "Recent Projects",
   //TODO prioritize specific repos!
   // TODO publicize "AML-ETHZ-HS21",
-  specificRepos: ["InfoSecLab-ETHZ-HS21", "SysSec-ETHZ-HS21", "routingSimEngine-ETHZ-FS20", "IML-ETHZ-FS21"],
-  gitHubUsername: "Toroto006", //i.e."johnDoe12Gh"
+  specificRepos: [
+    "InfoSecLab-ETHZ-HS21",
+    "SysSec-ETHZ-HS21",
+    "datavis-project-2023",
+    "IML-ETHZ-FS21",
+    //"ANN-RL-project-DQN",
+    "routingSimEngine-ETHZ-FS20",
+  ],
+  gitHubUsername: "Toroto006",
   reposLength: 4,
 };
 

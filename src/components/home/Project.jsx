@@ -30,18 +30,19 @@ const Project = ({ heading, username, length, specfic }) => {
     let repoList = [];
     try {
       // adding specified repos
+      let response;
       try {
         for (let repoName of specfic) {
-          const response = await axios.get(`${specficReposAPI}/${repoName}`);
+          response = await axios.get(`${specficReposAPI}/${repoName}`);
           repoList.push(response.data);
         }
       } catch (error) {
         console.error(error.message);
       }
       // getting all repos (now added to the end)
-      const response = await axios.get(allReposAPI);
+      //const response = await axios.get(allReposAPI);
       // combine the specified 
-      repoList = [...repoList, ...response.data];
+      //repoList = [...repoList, ...response.data];
       // remove the duplication
       let deduplicated = [];
       repoList.map((item) => {
