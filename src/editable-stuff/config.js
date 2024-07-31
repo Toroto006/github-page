@@ -57,7 +57,7 @@ const about = {
   imageLink: require("../editable-stuff/professional-2022-03-resized.jpg"),
   imageSize: 375,
   message:
-    "My name is Tobias Oberdörfer and I am currently doing my masters degree with Major in Cyber Security at ETH Zurich and working part-time at InfoGuard AG as a professional pentester. I am passionate about anything that has to do with computer systems, from how the linux kernel works over board management controllers to overall cyber security. In my free time I sometimes play CTFs as part of flagbot or organizers.",
+    "My name is Tobias Oberdörfer. I have a degree with Major in Cyber Security at ETH Zurich and currently work at InfoGuard AG as a professional pentester. I am passionate about anything that has to do with computer systems, from how the linux or Windows kernel works over board management controllers to overall cyber security. In my free time I sometimes play CTFs as part of flagbot or organizers.",
   // TODO add more dynamic link!
   resume: "tobias-oberdoerfer-resume-en.pdf",
 };
@@ -73,15 +73,16 @@ const repos = {
   //TODO prioritize specific repos!
   // TODO publicize "AML-ETHZ-HS21",
   specificRepos: [
+    "windows-kernel-driver-pipeline",
     "InfoSecLab-ETHZ-HS21",
     "SysSec-ETHZ-HS21",
     "datavis-project-2023",
     "IML-ETHZ-FS21",
-    //"ANN-RL-project-DQN",
-    "routingSimEngine-ETHZ-FS20",
+    "ANN-RL-project-DQN",
+    //"routingSimEngine-ETHZ-FS20",
   ],
   gitHubUsername: "Toroto006",
-  reposLength: 4,
+  reposLength: 6,
 };
 
 // Leadership SECTION
@@ -115,11 +116,12 @@ const skills = {
   hardSkills: [
     { name: "Python", value: 90 },
     { name: "C", value: 80 },
-    { name: "Java", value: 70 },
+    { name: "Go", value: 65 },
+    //{ name: "Java", value: 70 },
     { name: "Haskell", value: 65 },
     { name: "IDA Pro", value: 65 },
     { name: "GIT", value: 60 },
-    { name: "Ansible", value: 50 },
+    { name: "Next.js", value: 50 },
     { name: "React", value: 40 },
   ],
   softSkills: [
@@ -140,7 +142,7 @@ const getInTouch = {
   show: true,
   heading: "Get In Touch",
   message:
-    "I'm always keeping an eye out for a new job in the field of Cyber Security! If you know of any positions available, have any questions, or just want to say hi, please feel free to email me at",
+    "I am searching for a new job in the field of Cyber Security! If you know of any positions available, have any questions, or just want to say hi, please feel free to email me at",
   // TODO remove the comma here
   email: "tobias.ober@hotmail.com",
 };
