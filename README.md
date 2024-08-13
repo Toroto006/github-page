@@ -12,20 +12,7 @@
   </p>
 </p>
 
-## Table of Contents
-
-- [Technology Stack 🛠️](#technology-stack-)
-- [Structure ⚓](#structure-)
-- [Sharing 💗](#sharing-)
-- [Prerequisites 🍪](#prerequisites-)
-- [Setup And Deployment 🔧](#setup-and-deployment-)
-- [Contributing 🙌](#contributing-)
-- [Issues](#issues)
-- [Upcoming Features / Improvements 🔗](#upcoming-features-/-improvements-)
-- [Showcase 🚀](#showcase-)
-- [Versão em Português :brazil:](#versao-em-portugues-)
-
-## Technology Stack 🛠️
+## Technology stack 🛠️
 
 Dependencies defined in package.json:
 
@@ -57,9 +44,9 @@ Dependencies defined in package.json:
 - Footer
   - Footer Note (optional)
   - Copyrights - open source
-  - Acknowledgements(
+  - Acknowledgements
 
-## Sharing 💗
+# Getting started 💗
 
 Project is open source. Feel free to make your own version. All you need to do is to fork this repository, edit [src/editable-stuff/config.js](./src/editable-stuff/config.js) and add resume. Mark star ⭐ if you like the project.
 
