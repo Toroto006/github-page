@@ -57,7 +57,7 @@ const about = {
   imageLink: require("../editable-stuff/professional-2022-03-resized.jpg"),
   imageSize: 375,
   message:
-    "My name is Tobias Oberdörfer. I have a degree with Major in Cyber Security at ETH Zurich and currently work at InfoGuard AG as a professional pentester. I am passionate about anything that has to do with computer systems, from how the linux or Windows kernel works over board management controllers to overall cyber security. In my free time I sometimes play CTFs as part of flagbot or organizers.",
+    "My name is Tobias Oberdörfer. I have a degree with Major in Cyber Security at ETH Zurich and currently work at InfoGuard AG as a professional pentester. I am passionate about anything that has to do with computer systems, from how the linux or Windows kernel works over board management controllers and IoT to overall cyber security. In my free time I sometimes play CTFs as part of flagbot or organizers.",
   // TODO add more dynamic link!
   resume: "tobias-oberdoerfer-resume-en.pdf",
 };

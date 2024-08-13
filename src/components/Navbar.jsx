@@ -52,7 +52,7 @@ const Navigation = React.forwardRef((props, ref) => {
           } */}
           {about.show && (
             <NavLink
-              className="nav-item lead"
+              className="nav-link lead"
               href={process.env.PUBLIC_URL + "/#aboutme"}
             >
               About
@@ -60,28 +60,28 @@ const Navigation = React.forwardRef((props, ref) => {
           )}
           {skills.show && (
             <NavLink
-              className="nav-item lead"
+              className="nav-link lead"
               href={process.env.PUBLIC_URL + "/#skills"}
             >
               Skills
             </NavLink>
           )}
           {repos.show && (
-            <Nav.Link
+            <NavLink
               className="nav-link lead"
               href={process.env.PUBLIC_URL + "/#projects"}
             >
               Projects
-            </Nav.Link>
+            </NavLink>
           )}
-          <Nav.Link
+          <NavLink
             className="nav-link lead"
             href={about.resume}
             target="_blank"
             rel="noreferrer noopener"
           >
             Resume
-          </Nav.Link>
+          </NavLink>
         </Nav>
         {/* TODO add get in touch tab */}
       </Navbar.Collapse>
